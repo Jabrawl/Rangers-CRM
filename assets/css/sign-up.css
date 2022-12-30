@@ -1,0 +1,113 @@
+body{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-right{
+    float: right;
+    width: 60%;
+    margin: auto;
+    margin-left: 20px;
+}
+
+img {
+    display: block;
+    margin: 0;
+    margin-top: 30px;
+    margin-right: auto;
+    width: 85%;
+  }
+
+.container-left{
+    float: left;
+    width: 30%;
+    position: relative;
+    margin-right: 0;
+    margin-left: 70px;
+}
+
+.container-header{
+    margin: 40px;
+}
+
+input{
+    border-style: hidden;
+}
+
+.entry{
+    margin: auto;
+    margin-right: 0;
+    margin-bottom: 40px;
+    height: 50px;
+}
+
+.fa-regular, .fa-solid{
+    margin: 10px;
+    margin-left: 20px;
+}
+
+#username{
+    padding: 5px;
+    border-radius: 25px;
+    border: solid 2px lightgrey;  
+}
+
+#email{
+    padding: 5px;
+    border-radius: 25px;
+    border: solid 2px lightgrey;
+}
+
+#password{
+    padding: 5px;
+    border-radius: 25px;
+    border: solid 2px lightgrey;
+}
+
+.container-button{
+    display: flex;
+    margin: auto;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color: #0850f8;
+    border-radius: 25px;
+    border: solid 2px lightgrey;
+}
+
+#button-text{
+    margin: auto;
+}
+
+.container-alt-signup{
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.container-socials{
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.fa-brands{
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width:40px;
+    height:40px;
+    border: 2px solid lightgray;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding: 10px;
+    border-radius:51%;
+    box-sizing:border-box;
+    color: black;
+}
