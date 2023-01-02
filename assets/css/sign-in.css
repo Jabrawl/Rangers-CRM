@@ -1,0 +1,132 @@
+body{
+    background-color: white;
+}
+
+.grid-item{
+    height: 1fr;
+}
+
+.grid-container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 45%;
+    
+}
+
+.grid-item-1{
+    color: white;
+    background-color: blue;
+    border-bottom-right-radius: 90%;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    text-align: center;
+    padding-right: 25%;
+    
+}
+
+
+
+.Sign-Header{
+    text-align: center;
+    font-size: 50px
+}
+
+.grid-item-2{
+    padding-left: 100px;
+    padding-right: 50px;
+    height: 100%;
+    text-align: center;
+    
+}
+
+.space-img{
+    margin-bottom: 20px;
+    margin-top:0px;
+}
+
+.sign-in-page{
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.sign-in-form{
+    align-items: flex-start;
+    border: solid 1px darkgray;
+    border-radius: 50px;
+    padding: 13px;
+    margin-top: 75px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+h1{
+    font-size: larger;
+    padding-top: 120px;
+}
+
+h3{
+    padding-top: 20px;
+    font-size: medium;
+}
+
+.sign-up-button{
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 30px;
+    height: 50px;
+    color: white;
+    background-color: blue;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: solid white;
+    border-radius: 2cm;
+}
+
+.sign-in-button{
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 30px;
+    height: 60px;
+    width: 200px;
+    color: white;
+    background-color: blue;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: solid white;
+    border-radius: 2cm;
+}
+
+.input-field{
+    width: 80%;
+    height: 30px;
+    margin: 10px;
+    color: white;
+}
+
+input{
+    justify-content: center;
+    border: hidden;
+}
+
+.social-icons{
+    padding: 15px;
+    height: 80px;
+    margin: 25px;
+    border: 1px solid lightgray;
+    border-radius: 35%;
+    
+    
+}
+
+.src{
+    padding: 15px;
+    height: 80px;
+    margin: 25px;
+    border: 1px solid lightgray;
+    border-radius: 35%
+    
+}
